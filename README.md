@@ -12,7 +12,7 @@ O **FydelisTech-ATTACK** é uma suíte moderna e de alta performance voltada par
 ## 📸 Interface do Sistema
 
 <p align="center">
-  <img src="https://github.com/fydelis2025/FydelisTech-Attack/blob/main/Captura/Captura de tela 2026-07-08 112229.png" alt="FydelisTech-ATTACK Dashboard" width="100%">
+  <img src="[https://github.com/fydelis2025/FydelisTech-Attack/blob/main/Captura/Captura de tela 2026-07-08 112229.png](https://github.com/fydelis2025/FydelisTech-Attack/blob/main/Captura%20de%20tela%202026-07-08%20112229.png)" alt="FydelisTech-ATTACK Dashboard" width="100%">
 </p>
 <p align="center">
   <img src="https://github.com/fydelis2025/FydelisTech-Attack/blob/master/Captura de tela 2026-07-08 112246.png" alt="FydelisTech-ATTACK Dashboard" width="100%">
