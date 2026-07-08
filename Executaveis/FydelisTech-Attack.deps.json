@@ -1,0 +1,217 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "FydelisTech-Attack/1.0.0": {
+        "dependencies": {
+          "LanguageExt.Core": "4.4.9",
+          "ManagedNativeWifi": "3.0.2",
+          "MySqlConnector": "2.6.1",
+          "Npgsql": "10.0.3",
+          "PacketDotNet": "1.4.8",
+          "SSH.NET": "2025.1.0",
+          "SharpPcap": "6.3.1"
+        },
+        "runtime": {
+          "FydelisTech-Attack.dll": {}
+        }
+      },
+      "BouncyCastle.Cryptography/2.6.2": {
+        "runtime": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.6.2.46322"
+          }
+        }
+      },
+      "LanguageExt.Core/4.4.9": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/LanguageExt.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "ManagedNativeWifi/3.0.2": {
+        "runtime": {
+          "lib/net8.0/ManagedNativeWifi.dll": {
+            "assemblyVersion": "3.0.2.0",
+            "fileVersion": "3.0.2.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.0": {
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.52411"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/10.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.52411"
+          }
+        }
+      },
+      "MySqlConnector/2.6.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/MySqlConnector.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.6.1.0"
+          }
+        }
+      },
+      "Npgsql/10.0.3": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/Npgsql.dll": {
+            "assemblyVersion": "10.0.3.0",
+            "fileVersion": "10.0.3.0"
+          }
+        }
+      },
+      "PacketDotNet/1.4.8": {
+        "runtime": {
+          "lib/net9.0/PacketDotNet.dll": {
+            "assemblyVersion": "1.4.8.0",
+            "fileVersion": "1.4.8.0"
+          }
+        }
+      },
+      "SharpPcap/6.3.1": {
+        "dependencies": {
+          "PacketDotNet": "1.4.8"
+        },
+        "runtime": {
+          "lib/net8.0/SharpPcap.dll": {
+            "assemblyVersion": "6.3.1.0",
+            "fileVersion": "6.3.1.0"
+          }
+        }
+      },
+      "SSH.NET/2025.1.0": {
+        "dependencies": {
+          "BouncyCastle.Cryptography": "2.6.2",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.0"
+        },
+        "runtime": {
+          "lib/net9.0/Renci.SshNet.dll": {
+            "assemblyVersion": "2025.1.0.1",
+            "fileVersion": "2025.1.0.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FydelisTech-Attack/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BouncyCastle.Cryptography/2.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7oWOcvnntmMKNzDLsdxAYqApt+AjpRpP2CShjMfIa3umZ42UQMvH0tl1qAliYPNYO6vTdcGMqnRrCPmsfzTI1w==",
+      "path": "bouncycastle.cryptography/2.6.2",
+      "hashPath": "bouncycastle.cryptography.2.6.2.nupkg.sha512"
+    },
+    "LanguageExt.Core/4.4.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K9VGWkThJkaomifa3zcmwysw1BaSqIZZPZc6trBnJN8u9mpmA/cMMwCWEa/v7bPv/+NnG6PbyIDB7HtxBX7yCQ==",
+      "path": "languageext.core/4.4.9",
+      "hashPath": "languageext.core.4.4.9.nupkg.sha512"
+    },
+    "ManagedNativeWifi/3.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HgeZhoFiFBYcEkhs8yZdq26Ow8oZGG3uoCBEGw2HmjpCsMNGb3nWlN0vQZwCKVPy0NImaaYAzeCNMzqhuBkuWg==",
+      "path": "managednativewifi/3.0.2",
+      "hashPath": "managednativewifi.3.0.2.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3aeMZ1N0lJoSyzqiP03hqemtb1BijhsJADdobn/4nsMJ8V1H+CrpuduUe4hlRdx+ikBQju1VGjMD1GJ3Sk05Eg==",
+      "path": "microsoft.bcl.asyncinterfaces/7.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L3AdmZ1WOK4XXT5YFPEwyt0ep6l8lGIPs7F5OOBZc77Zqeo01Of7XXICy47628sdVl0v/owxYJTe86DTgFwKCA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FU/IfjDfwaMuKr414SSQNTIti/69bHEMb+QKrskRb26oVqpx3lNFXMjs/RC9ZUuhBhcwDM2BwOgoMw+PZ+beqQ==",
+      "path": "microsoft.extensions.logging.abstractions/10.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512"
+    },
+    "MySqlConnector/2.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MzNSfnHWBc0Mo3zVbYxG+556zuex9obs8NYtwcPCwFahel40e49stH+osjX4k/doEHp4LT/zTtGdax4nlGWhcw==",
+      "path": "mysqlconnector/2.6.1",
+      "hashPath": "mysqlconnector.2.6.1.nupkg.sha512"
+    },
+    "Npgsql/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7nb5YzXuvWWJxB0J8DiyL3we+X4FOctZrt0fIBnucOIaIevFEEwGQVZKtiu9olXdlNAK1eNgqSral6r/jlhI4w==",
+      "path": "npgsql/10.0.3",
+      "hashPath": "npgsql.10.0.3.nupkg.sha512"
+    },
+    "PacketDotNet/1.4.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j4C4QaJmaPCk0KXsIdsZqmBteKWj5znXBmfbPpu48rE5SW2xwXKVlRf7C3g7VM9aZqMHIQedApEuC71nNX5PaQ==",
+      "path": "packetdotnet/1.4.8",
+      "hashPath": "packetdotnet.1.4.8.nupkg.sha512"
+    },
+    "SharpPcap/6.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EWclXz+QdffBRppFR7GDBLyKiAz045RGvu4t4gcMGocVMEq6dRfCnAEx7Ep6qxcPPhH2kz13Y8FqBaHZhsh3Pg==",
+      "path": "sharppcap/6.3.1",
+      "hashPath": "sharppcap.6.3.1.nupkg.sha512"
+    },
+    "SSH.NET/2025.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jrnbtf0ItVaXAe6jE8X/kSLa6uC+0C+7W1vepcnRQB/rD88qy4IxG7Lf1FIbWmkoc4iVXv0pKrz+Wc6J4ngmHw==",
+      "path": "ssh.net/2025.1.0",
+      "hashPath": "ssh.net.2025.1.0.nupkg.sha512"
+    }
+  }
+}
